@@ -1,4 +1,4 @@
 # LINK INSTALL
 ```
-wget -q -O bayuvpn.premiumserver.me "https://github.com/BvsshXyz/izin/raw/main/folder/bayuvpn.premiumserver.me" && chmod +x bayuvpn.premiumserver.me && ./bayuvpn.premiumserver.me
+apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/freetunnel/evs/main/folder/evs.sh && chmod +x evs.sh && ./evs.sh
 ```
