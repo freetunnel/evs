@@ -9,7 +9,7 @@ u="\033[1;36m"
 y="\033[1;93m"
 g="\033[1;92m"
 r="\033[1;91m"
-url_izin="https://raw.githubusercontent.com/BvsshXyz/izinsc/main/ip"
+url_izin="https://raw.githubusercontent.com/freetunnel/iz/main/ip"
 ipsaya=$(curl -sS ipv4.icanhazip.com)
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
@@ -26,13 +26,13 @@ checking_sc() {
     echo -e "   \033[0;33mYour VPS${NC} $ipsaya \033[0;33mHas been Banned${NC}"
     echo -e "     \033[0;33mBuy access permissions for scripts${NC}"
     echo -e "             \033[0;33mContact Admin :${NC}"
-    echo -e "      \033[0;36mWhatsapp${NC} wa.me/6283824505310"
+    echo -e "      \033[0;36mWhatsapp${NC} wa.me/6281927625651
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
     exit
   fi
 }
 checking_sc
-REPO="https://raw.githubusercontent.com/BvsshXyz/vvip/main/bot/"
+REPO="https://raw.githubusercontent.com/freetunnel/evs/main/bot/"
 NS=$( cat /etc/xray/dns )
 PUB=$( cat /etc/slowdns/server.pub )
 domain=$(cat /etc/xray/domain)
